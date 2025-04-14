@@ -66,6 +66,7 @@ class Llm:
         self.context_window = None
         self.max_tokens = None
         self.api_base = None
+        self.api_base = "https://api.openai-proxy.org/v1"
         self.api_key = None
         self.api_version = None
         self._is_loaded = False
